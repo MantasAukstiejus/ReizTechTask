@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#Spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.ListContainer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98.3%;
+  background-color: #e3ffe3;
+}
+
+.FilterOptionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.FilterButtonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.ItemPerPageContainer {
+  display: flex;
+  background-color: #e3ffe3;
+  text-align: right;
+  margin: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  align-items: center;
+}
+.ItemPerPageContainer > select {
+  width: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+.ItemPerPageContainer > select:hover {
+  cursor: pointer;
+}
+
+.PageButtonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.ListGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.numButton {
+  background-color: #90ff90;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  width: 16px;
+  height: 15px;
+}
+
+.numButton:hover {
+  cursor: pointer;
+  background-color: #54b854;
+}

@@ -1,0 +1,23 @@
+.CountryCard {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 2px;
+  padding: 4px;
+  max-width: 500px;
+  background-color: #ccffcc;
+}
+
+.InfoText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name {
+  font-size: 15px;
+  font-weight: bold;
+}
+#region {
+  font-size: 12px;
+}
+#area {
+  font-size: 10px;
+}
